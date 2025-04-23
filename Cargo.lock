@@ -1859,7 +1859,7 @@ dependencies = [
 
 [[package]]
 name = "solana-ecies"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "aes-gcm",
  "curve25519-dalek 4.1.3",

@@ -1,5 +1,9 @@
 # solana-ecies
 
+[![Crates.io](https://img.shields.io/crates/v/solana-ecies.svg)](https://crates.io/crates/solana-ecies)
+[![Documentation](https://docs.rs/solana-ecies/badge.svg)](https://docs.rs/solana-ecies)
+[![License](https://img.shields.io/crates/l/solana-ecies.svg)](LICENSE)
+
 `solana-ecies` is a Rust library implementing the Elliptic Curve Integrated Encryption Scheme (ECIES) for Solana keypairs. It uses X25519 for key exchange, AES-256-GCM for encryption, and HKDF for key derivation. The library is designed to securely encrypt and decrypt data, such as challenges in Solana-based escrow systems, using Solana's Ed25519 keypairs converted to X25519.
 
 This library is ideal for Solana developers building secure applications, such as escrow-based program, where sensitive data needs to be encrypted off-chain and decrypted by authorized parties.
